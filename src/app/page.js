@@ -1,11 +1,10 @@
 import Image from 'next/image'
 import styles from './page.module.css'
-import navbar from './components/navbar'
-
+import Navbar from './components/navbar'
 export default function Home() {
   return (
     <main>
-      <navbar></navbar>
+      <Navbar></Navbar>
       <header id='header' className={styles.header}>
         <div>
           <h1>
