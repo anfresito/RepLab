@@ -36,22 +36,23 @@ export default function Home() {
           <span className={styles.title+" "+styles.yellowText}>André</span>
           <br />
           <span className={styles.title}>Flores</span>
-        </div>
+        
         <div className={styles.list}>
           <ul>
             <li>
-              <span className={styles.graytext}>Age: </span> 17
+              <span className={styles.grayText}>Age: </span> 17
             </li>
             <li>
-              <span className={styles.graytext}>Nationality: </span> Guatemalan
+              <span className={styles.grayText}>Nationality: </span> Guatemalan
             </li>
             <li>
-              <span className={styles.graytext}>Skill set: </span> Good chambing
+              <span className={styles.grayText}>Skill set: </span> Good chambing
             </li>
             <li>
-              <span className={styles.graytext}>Languages: </span> Spanish and English
+              <span className={styles.grayText}>Languages: </span> Spanish and English
             </li>
           </ul>
+        </div>
         </div>
       </section>
     </main>
